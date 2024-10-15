@@ -32,7 +32,7 @@ class PredictJob:
         self.done_time = None
         self.num_repeat = num_repeat
 
-
+#jobworker
 class JobWorker(Process):
     def __init__(self, pending_q: Queue) -> None:
         super().__init__()

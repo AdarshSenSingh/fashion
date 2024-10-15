@@ -11,6 +11,7 @@ tf.logging.set_verbosity(tf.logging.INFO)
 from tensorflow.examples.tutorials.mnist import input_data
 
 DATA_DIR = './data/fashion'
+# input data
 
 
 def cnn_model_fn(features, labels, mode):
