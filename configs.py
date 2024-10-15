@@ -11,6 +11,7 @@ TEST_DIR = ROOT_DIR + 'test/'
 DATA_DIR = ROOT_DIR + 'data/fashion'
 VIS_DIR = ROOT_DIR + 'visualization/'
 MODEL_SAVE_DIR = ROOT_DIR + 'save/'
+
 MULTI_TASK_MODEL = '20170814-153653'
 TEST_DATA_DIR = TEST_DIR + 'data/'
 LOG_DIR = ROOT_DIR + 'log/'

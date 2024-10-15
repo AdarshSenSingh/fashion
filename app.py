@@ -10,6 +10,7 @@ def start_s3_sync():
     stop_flag = threading.Event()
     upload_s3_thread = UploadS3Thread(stop_flag)
     upload_s3_thread.start()
+    
 
 
 if __name__ == "__main__":
