@@ -13,7 +13,7 @@ Here's an example of how the data looks (*each class takes three-rows*):
 
 [Many ML libraries](#loading-data-with-other-machine-learning-libraries) already include Fashion data/API, give it a try!
 
-You can use direct links to download the dataset. The data is stored in the **same** format as the original [MNIST data](http://yann.lecun.com/exdb/mnist/).
+You can use direct links to download the dataset. The data is stored in the **same** format as the original [data](http://yann.lecun.com/exdb/mnist/).
 
 | Name  | Content | Examples | Size | Link | MD5 Checksum|
 | --- | --- |--- | --- |--- |--- |
@@ -82,16 +82,16 @@ You can reproduce the results by running `benchmark/runner.py`. We recommend bui
 
 ## Visualization
 
-### t-SNE on Fashion (left) and original MNIST (right) 
+### t-SNE on Fashion (left) and original  (right) 
 <img src="doc/img/34d72c08.png" width="50%"><img src="doc/img/01e0c4be.png" width="50%">
 
-### PCA on Fashion (left) and original MNIST (right) 
+### PCA on Fashion (left) and original  (right) 
 <img src="doc/img/f04ba662.png" width="50%"><img src="doc/img/4433f0e1.png" width="50%">
 
-### [UMAP](https://github.com/lmcinnes/umap) on Fashion (left) and original MNIST (right) 
+### [UMAP](https://github.com/lmcinnes/umap) on Fashion (left) and original  (right) 
 <img src="doc/img/umap_example_fashion_mnist1.png" width="50%"><img src="doc/img/umap_example_mnist1.png" width="50%">
 
-### [PyMDE](https://github.com/cvxgrp/pymde) on Fashion (left) and original MNIST (right) 
+### [PyMDE](https://github.com/cvxgrp/pymde) on Fashion (left) and original  (right) 
 <img src="doc/img/pymde_example_fashion_mnist.png" width="50%"><img src="doc/img/pymde_example_mnist.png" width="50%">
 
 
