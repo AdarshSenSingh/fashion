@@ -15,5 +15,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 ADD . /
 
+
 ENTRYPOINT python ./app.py $ARGUMENTS
 #ENTRYPOINT python ./benchmark/convnet.py

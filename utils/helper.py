@@ -12,6 +12,7 @@ def now_int():
 
 
 class UploadS3Thread(Thread):
+    
     def __init__(self, event: Event):
         super().__init__()
         self.stopped = event

@@ -18,3 +18,4 @@ if __name__ == "__main__":
     start_s3_sync()
     jm = JobManager(**arg_dict)
     jm.start()
+

@@ -16,6 +16,7 @@ function parseResult(raw_str) {
         lstBM[index]['done_time'] = moment(lstBM[index]['done_time'] * 1000).fromNow();
     });
     return lstBM
+    
 }
 
 function loadResult(fn, cb) {

@@ -15,6 +15,7 @@ MULTI_TASK_MODEL = '20170814-153653'
 TEST_DATA_DIR = TEST_DIR + 'data/'
 LOG_DIR = ROOT_DIR + 'log/'
 RESULT_DIR = ROOT_DIR + 'result/'
+
 TEMPLATE_DIR = ROOT_DIR + 'templates/'
 STATIC_DIR = ROOT_DIR + 'static/'
 SCRIPT_DIR = ROOT_DIR + 'script/'

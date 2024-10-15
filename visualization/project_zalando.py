@@ -9,6 +9,7 @@ from utils.helper import get_sprite_image
 
 X, Y = mnist_reader.load_mnist(path=DATA_DIR, kind='t10k')
 
+
 labels = ['t_shirt_top', 'trouser', 'pullover', 'dress', 'coat', 'sandal', 'shirt', 'sneaker', 'bag', 'ankle_boots']
 Y_str = np.array([labels[j] for j in Y])
 np.savetxt('Xtest.tsv', X, fmt='%.6e', delimiter='\t')

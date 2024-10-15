@@ -9,6 +9,7 @@ def parse_arg(v: str) -> Union[str, int, float, bool, None]:
         v = int(v)  # parse int parameter
     except ValueError:
         try:
+            
             v = float(v)  # parse float parameter
         except ValueError:
             if len(v) == 0:
