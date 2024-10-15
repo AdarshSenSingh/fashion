@@ -1,19 +1,6 @@
 # Fashion
 
 
-<details><summary>Table of Contents</summary><p>
-
-* [Why we made Fashion](#why-we-made-fashion-mnist)
-* [Get the Data](#get-the-data)
-* [Usage](#usage)
-* [Benchmark](#benchmark)
-* [Visualization](#visualization)
-* [Contributing](#contributing)
-* [Contact](#contact)
-* [Citing Fashion](#citing-fashion-mnist)
-* [License](#license)
-</p></details><p></p>
-
 
 Here's an example of how the data looks (*each class takes three-rows*):
 
