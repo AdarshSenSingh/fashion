@@ -76,7 +76,7 @@ Also, an official Tensorflow tutorial of using `tf.keras`, a high-level API to t
 ## Benchmark
 We built an automatic benchmarking system based on `scikit-learn` that covers 129 classifiers (but no deep learning) with different parameters. [Find the results here](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/).
 
-<img src="doc/img/benchmark.gif" width="100%">
+
 
 You can reproduce the results by running `benchmark/runner.py`. We recommend building and deploying [this Dockerfile](Dockerfile). 
 
